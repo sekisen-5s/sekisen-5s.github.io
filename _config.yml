@@ -1,11 +1,22 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  
+# サイトの設定
+title: My Awesome Site
+description: Welcome to my awesome site.
+baseurl: "" # 例: '/project-name' サブディレクトリでホストする場合に設定します
+url: "http://yourdomain.com" # サイトのURL
+permalink: /:categories/:year/:month/:day/:title/
+
+# ビルド設定
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 作者情報 (任意)
+author:
+  name: John Doe
+  email: johndoe@example.com
+
+# 排除するファイルやディレクトリ
+exclude:
+  - README.md
+
