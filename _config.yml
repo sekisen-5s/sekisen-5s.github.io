@@ -1,8 +1,8 @@
 # サイトの設定
 title: My Awesome Site
 description: Welcome to my awesome site.
-baseurl: "" # 例: '/project-name' サブディレクトリでホストする場合に設定します
-url: "http://yourdomain.com" # サイトのURL
+baseurl: "/sekisen-5s.github.io" # 例: '/project-name' サブディレクトリでホストする場合に設定します
+url: "https://sekisen-5s.github.io/" # サイトのURL
 permalink: /:categories/:year/:month/:day/:title/
 
 # ビルド設定
